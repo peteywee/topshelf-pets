@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Topshelf Pets — Smarter Picks for New Pet Parents</title>
+  <meta name="description" content="Actionable guides and vetted gear for new dog & cat owners (0–6 months). No fluff—just what works.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://topshelf.it.com/">
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">
+        <img src="/assets/logo_sisyphus.svg" alt="Topshelf Pets logo">
+        <strong>Topshelf Pets</strong>
+      </div>
+      <div class="badge">Practical picks for new pet parents</div>
+    </nav>
+
+    <section class="hero">
+      <div class="card">
+        <p class="kicker">New dog or cat?</p>
+        <h1 class="h1">Start strong with gear and routines that actually work.</h1>
+        <p class="p">We test, compare, and distill essentials for the first 6 months—crate training, litter setup, feeding, grooming, and vet-prep.</p>
+        <div class="cta">
+          <input class="input" id="email" type="email" placeholder="Your email (get 2x weekly tips)" aria-label="Email">
+          <button class="btn" id="subscribe">Get the checklist</button>
+        </div>
+        <div class="notice">By clicking, you agree to our <a href="/privacy.html">Privacy</a>. We use affiliate links and may earn a commission. <a href="/disclosure.html">Learn more</a>.</div>
+      </div>
+      <div class="card">
+        <h2 class="h2">Choose your path</h2>
+        <div class="grid">
+          <a class="card" href="/go/clickbank.html" rel="nofollow sponsored">Puppy Starter Bundle</a>
+          <a class="card" href="/blogs/kitten-litter-box-setup.html">Kitten Litter Setup</a>
+          <a class="card" href="/blogs/the-first-48-hours-with-a-puppy.html">Puppy: First 48 Hours</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Topshelf Pets · <a href="/disclosure.html">Affiliate Disclosure</a> · <a href="/privacy.html">Privacy</a> · <a href="/sitemap.xml">Sitemap</a>
+    </footer>
+  </div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('subscribe').addEventListener('click', () => {
+    const e = (document.getElementById('email')||{}).value || '';
+    const url = 'mailto:hello@topshelf.it.com?subject=Subscribe&body=' + encodeURIComponent('Please subscribe me. Email: ' + e);
+    window.location.href = url;
+  });
+</script>
+</body>
+</html>

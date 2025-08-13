@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="256" height="256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49D49D"/>
+      <stop offset="100%" stop-color="#7c8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="28" fill="#0f1115"/>
+  <!-- Stylized Sisyphus: figure pushing a boulder up a slope -->
+  <path d="M30 260 L270 120" stroke="#1f2433" stroke-width="14" />
+  <circle cx="235" cy="108" r="36" fill="url(#g)" opacity="0.9"/>
+  <path d="M170 170 q20 -10 40 -20" stroke="#49D49D" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="150" cy="188" r="10" fill="#e4e7ee"/> <!-- head -->
+  <path d="M150 198 l-12 22 M150 198 l22 10 M138 220 l-18 22 M172 208 l18 18" stroke="#e4e7ee" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="24" y="300" fill="#e4e7ee" font-size="20" font-family="Inter, sans-serif">TOPSHELF · PETS</text>
+</svg>

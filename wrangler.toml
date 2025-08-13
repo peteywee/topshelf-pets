@@ -1,0 +1,4 @@
+name = "topshelf-pets-v3"
+compatibility_date = "2025-08-13"
+assets = { directory = "./site" }
+routes = [ { pattern = "topshelf.it.com", custom_domain = true } ]
