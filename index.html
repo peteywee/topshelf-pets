@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Top Shelf Pets — New Pet Starter Guides</title>
+  <meta name="description" content="Practical, no-fluff starter guides for new cat & dog owners (0–6 months), plus curated shopping links." />
+  <link rel="icon" href="/assets/favicon.svg" />
+  <meta property="og:title" content="Top Shelf Pets — New Pet Starter Guides" />
+  <meta property="og:description" content="Practical, no-fluff starter guides for new cat & dog owners (0–6 months), plus curated shopping links." />
+  <meta property="og:image" content="/assets/og-image.svg" />
+  <style>
+    :root { --bg:#0b0b0b; --fg:#f5f5f5; --muted:#9aa0a6; --brand:#36c; --card:#141414; }
+    html,body { margin:0; background:var(--bg); color:var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 24px; }
+    header { display:flex; align-items:center; gap:16px; }
+    header img { width:42px; height:42px; }
+    h1 { font-size: clamp(1.6rem, 2.2vw + 1rem, 2.4rem); margin: 8px 0 0; }
+    p.lede { color: var(--muted); margin: 6px 0 20px; }
+    .grid { display:grid; grid-template-columns: 1fr; gap:16px; }
+    @media (min-width: 900px){ .grid { grid-template-columns: 1fr 1fr; } }
+    .card { background: var(--card); border:1px solid #1e1e1e; border-radius:18px; padding:18px; }
+    .card h2 { margin:0 0 8px; font-size:1.2rem; }
+    .items { display:grid; gap:10px; }
+    .item { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .item span { color:var(--muted); }
+    .btn { display:inline-block; text-decoration:none; padding:10px 14px; border-radius:12px; border:1px solid #2a2a2a; }
+    .btn.primary { background:var(--brand); color:white; border: none; font-weight:600; }
+    .btn.ghost { color:var(--fg); }
+    footer { margin-top: 32px; color: var(--muted); font-size: 0.9rem; }
+    .disclosure { background:#101010; border:1px solid #1f1f1f; padding:12px 14px; border-radius:12px; }
+    nav.cta { display:flex; gap:12px; flex-wrap:wrap; margin: 14px 0 24px; }
+    .pill { background:#101010; border:1px solid #1f1f1f; border-radius:999px; padding:6px 12px; color:#cfcfcf; font-size:.9rem; }
+    .hr { height:1px; background:#1b1b1b; margin:22px 0; border:0; }
+    a.btn[disabled] { opacity: .5; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="/assets/logo-user.png" alt="Top Shelf Pets logo" />
+      <div>
+        <h1>Top Shelf Pets</h1>
+        <p class="lede">Zero fluff. Field-tested essentials for brand-new cat & dog owners (0–6 months).</p>
+      </div>
+    </header>
+
+    <nav class="cta">
+      <!-- Amazon links auto-injected by script with your tag -->
+      <a class="btn primary amz" data-q="puppy starter kit" href="#">Shop Dog Starter Kits</a>
+      <a class="btn primary amz" data-q="kitten starter kit" href="#">Shop Cat Starter Kits</a>
+      <a class="btn ghost amz" data-q="best puppy food dry" href="#">Puppy Food</a>
+      <a class="btn ghost amz" data-q="best kitten food dry" href="#">Kitten Food</a>
+      <span class="pill">Reading time: 3–5 min</span>
+      <span class="pill">Owner focus: 0–6 months</span>
+    </nav>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Dog: First 48 hours</h2>
+        <div class="items">
+          <div class="item"><span>Crate (right size, divider)</span><a class="btn amz" data-q="dog crate with divider 36 inch" href="#">Shop</a></div>
+          <div class="item"><span>2 bowls (non-tip)</span><a class="btn amz" data-q="stainless steel dog bowls non tip set" href="#">Shop</a></div>
+          <div class="item"><span>Leash + harness</span><a class="btn amz" data-q="no pull dog harness leash set" href="#">Shop</a></div>
+          <div class="item"><span>Poop bags & holder</span><a class="btn amz" data-q="compostable dog poop bags holder" href="#">Shop</a></div>
+          <div class="item"><span>Training treats</span><a class="btn amz" data-q="puppy training treats low calorie" href="#">Shop</a></div>
+          <div class="item"><span>Enzyme cleaner</span><a class="btn amz" data-q="enzymatic pet urine cleaner" href="#">Shop</a></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Cat: First 48 hours</h2>
+        <div class="items">
+          <div class="item"><span>Litter box + scoop</span><a class="btn amz" data-q="large litter box with scoop" href="#">Shop</a></div>
+          <div class="item"><span>Clumping litter (unscented)</span><a class="btn amz" data-q="unscented clumping cat litter" href="#">Shop</a></div>
+          <div class="item"><span>Carrier (top-load)</span><a class="btn amz" data-q="top load cat carrier hard sided" href="#">Shop</a></div>
+          <div class="item"><span>Scratcher + wand toy</span><a class="btn amz" data-q="cat scratcher cardboard + wand toy" href="#">Shop</a></div>
+          <div class="item"><span>Feliway (stress relief)</span><a class="btn amz" data-q="feliway classic diffuser" href="#">Shop</a></div>
+          <div class="item"><span>Fountain (encourage drinking)</span><a class="btn amz" data-q="stainless steel cat water fountain" href="#">Shop</a></div>
+        </div>
+      </article>
+    </section>
+
+    <div class="hr"></div>
+
+    <section class="card">
+      <h2>Quick Guides</h2>
+      <p>We keep it tight: setup checklists and “what actually matters” for week one. Each guide below links to a curated Amazon search so you can buy in minutes.</p>
+      <ul>
+        <li><a class="amz" data-q="puppy housebreaking kit" href="#">Housebreaking kit (dogs)</a></li>
+        <li><a class="amz" data-q="puppy crate divider kit" href="#">Crate training tools</a></li>
+        <li><a class="amz" data-q="kitten proofing home kit" href="#">Home kitten-proofing</a></li>
+        <li><a class="amz" data-q="cat litter tracking mat" href="#">Litter tracking mats</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p class="disclosure"><strong>Affiliate disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases. This costs you nothing and helps keep our guides free.</p>
+      <p>© <span id="y"></span> Top Shelf Pets.</p>
+    </footer>
+  </div>
+
+  <script>
+    // ---- CONFIG: your Amazon Associates tracking ID
+    const AFF_TAG = "peteywee20"; // provided by you
+
+    // Build Amazon search URL within the Pets category, with affiliate tag
+    function amzUrl(query){
+      const u = new URL("https://www.amazon.com/s");
+      u.searchParams.set("k", query);
+      u.searchParams.set("i", "pets");
+      u.searchParams.set("tag", AFF_TAG);
+      return u.toString();
+    }
+
+    // Rewrite all .amz links
+    for (const a of document.querySelectorAll("a.amz")) {
+      const q = a.getAttribute("data-q");
+      if (q) a.href = amzUrl(q);
+      a.setAttribute("rel","sponsored noopener");
+      a.setAttribute("target","_blank");
+    }
+
+    // Year stamp
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+  <noscript>Shopping links require JavaScript to add the Amazon tracking tag.</noscript>
+</body>
+</html>
